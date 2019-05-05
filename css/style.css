@@ -1,0 +1,254 @@
+
+@font-face {
+  font-family: Brandon_bld;
+  src: url(../fonts/Brandon_bld.ttf);
+}
+@font-face {
+  font-family: Brandon_light;
+  src: url(../fonts/Brandon_light.ttf);
+}
+@font-face {
+  font-family: Brandon_med;
+  src: url(../fonts/Brandon_med.ttf);
+}
+@font-face {
+  font-family: Brandon_reg;
+  src: url(../fonts/Brandon_reg.ttf);
+}
+@font-face {
+  font-family: Cubano-Regular;
+  src: url(../fonts/Cubano-Regular.ttf);
+}
+body{
+	font-family: Brandon_reg;
+	color: #777777;
+}
+/*header start*/
+header{
+	background-image: url(../image/EscapeBanner2.png);
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size: cover;
+	padding: 40px 0;
+
+}
+
+
+.menu ul li a{
+	transition: .9s;
+	font-family: Brandon_med;
+	padding: 0 15px !important;
+	font-size: 18px;
+	color: #ffffff !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #669999 !important;
+}
+.content{
+	margin-top: 250px;
+	padding-bottom: 180px;
+}
+.content p{
+	font-family: Brandon_light;
+	font-size: 32px;
+	color: #ffffff !important;
+}
+.content h1{
+	font-family: Brandon_bld;
+	font-size: 69px;
+	color: #ffffff !important;
+	text-transform: uppercase;
+	margin-top: 30px; 
+}
+.content button{
+	margin-top: 100px;
+	font-family: Brandon_bld;
+	font-size: 23px;
+	padding: 10px 70px;
+	border: 2px solid white;
+	border-radius: 3%;
+	background: transparent;
+	color: #ffffff !important;
+}
+.content button:hover{
+	color: #669999 !important;
+}
+/*header end*/
+/*developement start*/
+.developement{
+	margin-top: 70px;
+}
+.developement h4{
+	font-size: 60px;
+	color: #222222;
+}
+
+.developement p{
+	font-size: 18px;
+	color: #777777;
+}
+.developement2{
+	margin-top: 70px;
+	background-color: #fafafa;
+	padding-bottom: 50px;
+}
+.developement2 h4{
+	font-size: 60px;
+	color: #222222;
+	margin-top: 50px;
+}
+
+.developement2 p{
+	font-size: 18px;
+	color: #777777;
+}
+.developement2 img{
+	margin-top: 50px;
+
+}
+
+/*developement end*/
+
+/*features start*/
+.features{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+.features i{
+	font-size: 50px;
+	color: #222222;
+}
+.features h5{
+	font-size: 22px;
+	font-weight: 700;
+	color: #222222;
+}
+
+/*features end*/
+/*review start*/
+.review{
+	background-color:#fafafa;
+	margin-top: 90px;
+	padding-bottom: 50px;
+}
+.review img{
+	margin-top: 50px;
+}
+.review h4{
+	font-size: 50px;
+	color: #222222;
+	margin-top: 70px;
+	padding-top: 80px;
+}
+.review p{
+	font-size: 18px;
+	color: #777777;
+}
+
+/*review end*/
+
+/*company start*/
+.company{
+	padding-top: 90px;
+	
+}
+/*company end*/
+/*team start*/
+.team{
+	background-color: #000;
+	margin-top: 90px;
+}
+
+
+.team h3{
+	font-size: 60px;
+	padding-top: 90px;
+	color: white;
+}
+.team p{
+	padding-bottom: 5px;
+}
+.team h4{
+	font-size: 50px;
+	color: white;
+	margin-top: 70px;
+	padding-top: 80px;
+}
+.name{
+	margin-top: 40px;
+	font-weight: 700;
+}
+.title{
+	margin-bottom: 80px;
+	font-size: 22px;
+}
+.bottom{
+	margin-left: 170px;
+	margin-top: 70px;
+	font-size: 22px;
+	padding-bottom: 50px;
+}
+.team ul li a{
+	transition: .5s;
+}
+.team ul li a :hover{
+	color: blue; 
+}
+
+
+/*team end*/
+/*hello start*/
+.hello{
+	background-color: #7690c5;
+}
+
+.hello h4{
+	margin-top: 100px;
+	color: white;
+	font-size: 50px;
+}
+.hello p{
+	color: white;
+}
+.for-form{
+	margin-top: 150px;
+
+
+}
+.f-name{
+	width: 400px;
+	margin-bottom: 20px;
+	height: 40px;
+}
+.f-email{
+	width: 400px;
+	margin-bottom: 20px;
+	height: 40px;
+
+}
+.f-message{
+	width: 400px;
+	margin-bottom: 20px;
+	height: 200px;
+
+}
+.con{
+	margin-bottom: 25px;
+	padding-top: 20px;
+	color: white;
+}
+/*hello end*/
+/*footer start*/
+.footer{
+	background-color: #7690c5;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+.footer p{
+	color: white;
+}
+
+/*footer end*/
